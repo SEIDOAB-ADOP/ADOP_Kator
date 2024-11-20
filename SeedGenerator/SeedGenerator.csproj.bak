@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Seido.Utilities.SeedGenerator</PackageId>
+    <Version>1.0.4</Version>
+    <Authors>Martin Lenart</Authors>
+    <Description>A random seeder for C# .NET 8.0 projects and above</Description>
+
+  <!--
+  <ItemGroup>
+    <None Update="master-seeds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  -->
+
+
+  </PropertyGroup>
+
+</Project>
