@@ -61,7 +61,7 @@ static bool IsGold(IMember member) => member.Level == MemberLevel.Gold;
 
 
 #region #event handler
-static void ListSortedEventHandler(object? sender, int NrOfItems)
+static void ListSortedEventHandler(object sender, int NrOfItems)
 {
     Console.WriteLine($"#### {NrOfItems} sorted");
 }
